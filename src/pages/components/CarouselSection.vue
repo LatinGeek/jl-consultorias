@@ -1,28 +1,18 @@
 <template>
   <div class="section" id="carousel">
-    <div class="container">
-      <div class="title">
-        <h4>Carousel</h4>
-      </div>
+    <div id="carousel" class="container">
+
       <div class="row justify-content-center">
-        <div class="col-8">
-          <el-carousel height="500px">
-            <el-carousel-item>
-              <img class="d-block" src="img/bg1.jpg" alt="First slide" />
+        <div class="col-12">
+          <el-carousel style="height: calc(100vw / 2.8)!important; overflow: hidden;">
+            <el-carousel-item style="height: calc(100vw / 2.69)!important;">
+              <img  class="d-block" id="slider" src="img/slider-1.png" alt="First slide" />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Nature, United States</h5>
               </div>
             </el-carousel-item>
-            <el-carousel-item>
-              <img class="d-block" src="img/bg3.jpg" alt="Second slide" />
+            <el-carousel-item style="height: calc(100vw / 2.69)!important;">
+              <img class="d-block" id="slider" src="img/slider-2.png" alt="Second slide" />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Somewhere Beyond, United States</h5>
-              </div>
-            </el-carousel-item>
-            <el-carousel-item>
-              <img class="d-block" src="img/bg4.jpg" alt="Third slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Yellowstone National Park, United States</h5>
               </div>
             </el-carousel-item>
           </el-carousel>
@@ -41,4 +31,19 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+#carousel {
+  max-width: 100%;
+  padding: 5px 0px 0px 0px !important;
+}
+
+#slider {
+  width: 100%;
+}
+
+el-carousel {
+  height: 100%;
+}
+
+
+</style>

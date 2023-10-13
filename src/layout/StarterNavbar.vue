@@ -1,8 +1,9 @@
+<!-- eslint-disable vue/no-unused-vars -->
 <template>
   <navbar position="fixed" type="primary" menu-classes="ml-auto">
     <template slot-scope="{ toggle, isToggled }">
       <router-link v-popover:popover1 class="navbar-brand" to="/presentation">
-        My Site Name
+        <img src="img\logo-jl.png" style="width: 50px;">
       </router-link>
       <el-popover
         ref="popover1"
@@ -35,7 +36,7 @@ export default {
   components: {
     DropDown,
     Navbar,
-    NavbarToggleButton,
+    //NavbarToggleButton,
     NavLink,
     [Popover.name]: Popover
   }

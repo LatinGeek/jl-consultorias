@@ -21,7 +21,7 @@
             background-color: $transparent-bg;
             border: 1px solid $transparent-bg;
             border-radius: 30px;
-            font-size: $font-size-base;
+            font-size: $font-size-large-navbar;
             padding: $padding-btn-vertical $padding-round-horizontal;
             line-height: $line-height-general;
 
@@ -36,7 +36,7 @@
             }
 
             i.now-ui-icons{
-                font-size: 14px;
+                font-size: 20px;
                 position: relative;
                 top: 1px;
                 margin-right: 3px;

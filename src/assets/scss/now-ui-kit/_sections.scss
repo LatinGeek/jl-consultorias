@@ -1,7 +1,7 @@
 .section{
     padding: 70px 0;
     position: relative;
-    background: $white-color;
+    background: $dark-background;
 
     .row + .category{
         margin-top: $margin-base-vertical;
@@ -22,7 +22,7 @@
   min-height: 100vh;
   max-height: 999px;
   padding: 0;
-  color: $white-color;
+  color: $dark-background;
   position: relative;
   overflow: hidden;
 
