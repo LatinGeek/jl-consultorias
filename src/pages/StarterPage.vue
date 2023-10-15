@@ -15,9 +15,8 @@
             </template>
             <p class="paragraph">
               Los programas de control y gestión de riesgos son fundamentales para mantener la inocuidad alimentaria en tu
-              empresa. En [Nombre de tu empresa], creamos programas personalizados que se adaptan a tus necesidades y
-              metas específicas. Nuestra experiencia y conocimiento en la materia te ayudarán a establecer protocolos
-              efectivos para prevenir contaminaciones, gestionar riesgos y garantizar la calidad de tus productos.
+              empresa. En <b>JL Consultorías</b>, creamos programas personalizados que se adaptan a tus necesidades y
+              metas específicas. 
             </p>
           </tab-pane>
           <tab-pane>
@@ -43,9 +42,7 @@
             <p class="paragraph">
               Nuestra evaluación y diagnóstico de inocuidad alimentaria es el primer paso hacia la garantía de la
               seguridad de tus productos. Nuestro equipo de expertos llevará a cabo una revisión exhaustiva de tus
-              procesos y operaciones para identificar posibles riesgos y áreas de mejora. Utilizamos las mejores prácticas
-              y estándares internacionales para asegurarnos de que cumplas con las normativas de seguridad alimentaria,
-              minimices riesgos y protejas la salud de tus clientes.
+              procesos y operaciones para identificar posibles riesgos y áreas de mejora. 
 
 
             </p>
@@ -143,6 +140,8 @@
         </div>
       </div>
 
+      <h1 class="title" id="title">Agenda una reunión</h1>
+      <vue-calendly url="https://calendly.com/germanlamela98/30min" height="800"></vue-calendly>
 
     </div>
 
@@ -161,7 +160,8 @@ export default {
   components: {
     CarouselSection, Card, Tabs, TabPane, Collapse,
     CollapseItem
-  }
+  },
+
 };
 </script>
 <style>
@@ -171,7 +171,7 @@ export default {
 }
 
 #title {
-  margin-top: 2em;
+  margin-top: 1em;
   color: white;
 }
 
@@ -179,9 +179,30 @@ export default {
   color: white;
 }
 
+@media screen and (max-width: 700px) {
+  .paragraph {
+    font-size: 1em;
+  }
+  .faqTitle{
+    font-size: 13px;
+    font-weight: 600;
+
+  }
+
+}
+
+@media screen and (min-width: 701px) {
+  .paragraph {
+    font-size: x-large;
+  }
+  .faqTitle{
+    font-size: 20px;
+
+  }
+}
+
 .paragraph {
   font-weight: 500;
-  font-size: x-large;
 }
 
 .carousel {
@@ -189,7 +210,6 @@ export default {
 }
 
 .faqTitle {
-  font-size: 20px;
   color: black;
 }
 
@@ -197,4 +217,8 @@ export default {
   height: 200px;
   width: 200px;
 }
+.calendly .calendly-overlay .calendly-popup {max-height: 780px!important;}
+
+
+
 </style>

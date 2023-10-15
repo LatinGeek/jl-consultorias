@@ -4,18 +4,19 @@
 
       <div class="row justify-content-center">
         <div class="col-12">
-          <el-carousel style="height: calc(100vw / 2.8)!important; overflow: hidden;">
-            <el-carousel-item style="height: calc(100vw / 2.69)!important;">
-              <img  class="d-block" id="slider" src="img/slider-1.png" alt="First slide" />
+          <el-carousel class="sliderContainer">
+            <el-carousel-item class="slider">
+              <img id="img1" class="d-block" alt="First slide" />
               <div class="carousel-caption d-none d-md-block">
               </div>
             </el-carousel-item>
-            <el-carousel-item style="height: calc(100vw / 2.69)!important;">
-              <img class="d-block" id="slider" src="img/slider-2.png" alt="Second slide" />
+            <el-carousel-item class="slider">
+              <img id="img2" class="d-block"  alt="Second slide" />
               <div class="carousel-caption d-none d-md-block">
               </div>
             </el-carousel-item>
           </el-carousel>
+
         </div>
       </div>
     </div>
@@ -23,6 +24,7 @@
 </template>
 <script>
 import { Carousel, CarouselItem } from 'element-ui';
+
 
 export default {
   components: {
@@ -37,7 +39,7 @@ export default {
   padding: 5px 0px 0px 0px !important;
 }
 
-#slider {
+.slider {
   width: 100%;
 }
 
@@ -46,4 +48,50 @@ el-carousel {
 }
 
 
+
+@media screen and (min-width: 1200px) {
+  .slider {
+    height: calc(100vw / 2.8) !important;
+    overflow: visible;
+  }
+  .sliderContainer {
+    height: calc(100vw / 2.8) !important;
+    overflow: hidden;
+  }
+
+  #img1 {
+    content: url("/img/banners/Banner1_rectangle.png");
+  }
+
+  #img2 {
+    content: url("/img/banners/Banner2_rectangle.png");
+
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1199px) {
+  .slider {
+    height: calc(100vw) !important;
+    overflow: hidden;
+  }
+
+  .sliderContainer {
+    height: calc(96vw) !important;
+    overflow: hidden;
+  }
+  #img1 {
+    content: url("/img/banners/Banner1_square.png");
+  }
+
+  #img2 {
+    content: url("/img/banners/Banner2_square.png");
+
+  }
+
+
+}
 </style>
