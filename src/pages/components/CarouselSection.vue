@@ -54,7 +54,12 @@ el-carousel {
     height: calc(100vw / 2.8) !important;
     overflow: visible;
   }
-  .sliderContainer {
+  .sliderContainer .el-carousel__container {
+    height: calc(100vw / 2.8) !important;
+    overflow: hidden;
+  }
+
+  .sliderContainer .el-carousel__container {
     height: calc(100vw / 2.8) !important;
     overflow: hidden;
   }
@@ -79,7 +84,7 @@ el-carousel {
     overflow: hidden;
   }
 
-  .sliderContainer {
+  .sliderContainer .el-carousel__container{
     height: calc(96vw) !important;
     overflow: hidden;
   }

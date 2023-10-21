@@ -1,5 +1,6 @@
 <template>
   <div class="starter-page">
+    <div style="height: 0em;"></div>
     <div class="section text-center">
       <CarouselSection class="carousel"></CarouselSection>
       <h1 class="title" id="title">Servicios</h1>
@@ -16,7 +17,7 @@
             <p class="paragraph">
               Los programas de control y gestión de riesgos son fundamentales para mantener la inocuidad alimentaria en tu
               empresa. En <b>JL Consultorías</b>, creamos programas personalizados que se adaptan a tus necesidades y
-              metas específicas. 
+              metas específicas.
             </p>
           </tab-pane>
           <tab-pane>
@@ -42,7 +43,7 @@
             <p class="paragraph">
               Nuestra evaluación y diagnóstico de inocuidad alimentaria es el primer paso hacia la garantía de la
               seguridad de tus productos. Nuestro equipo de expertos llevará a cabo una revisión exhaustiva de tus
-              procesos y operaciones para identificar posibles riesgos y áreas de mejora. 
+              procesos y operaciones para identificar posibles riesgos y áreas de mejora.
 
 
             </p>
@@ -140,8 +141,22 @@
         </div>
       </div>
 
+      <h1 class="title" id="title">Trabajemos juntos</h1>
+      <div class="row inforow">
+        <div class="col-sm-12 col-xl-6">
+          <img src="/img/food-safety-logo.png" style="width: 100%; max-width: 40em; padding: 2em 10em 2em 10em;" />
+        </div>
+        <div style='margin: auto; padding: 5em;' class="col-sm-12 col-xl-6 description">
+          <p>
+            <b>Agenda una reunión de 30 minutos para conocer acerca de tu situación y poder brindarte una propuesta de valor
+            que garantice la satisfacción de tu negocio en términos de Seguridad Alimentaria</b>
+          </p>
+        </div>
+      </div>
+
+
       <h1 class="title" id="title">Agenda una reunión</h1>
-      <vue-calendly url="https://calendly.com/germanlamela98/30min" height="800"></vue-calendly>
+      <vue-calendly url="https://calendly.com/germanlamela98/30min" height=800></vue-calendly>
 
     </div>
 
@@ -170,6 +185,11 @@ export default {
   background-color: black;
 }
 
+h1 {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 #title {
   margin-top: 1em;
   color: white;
@@ -183,7 +203,8 @@ export default {
   .paragraph {
     font-size: 1em;
   }
-  .faqTitle{
+
+  .faqTitle {
     font-size: 13px;
     font-weight: 600;
 
@@ -195,9 +216,14 @@ export default {
   .paragraph {
     font-size: x-large;
   }
-  .faqTitle{
+
+  .faqTitle {
     font-size: 20px;
 
+  }
+
+  .inforow{
+    padding: 10em;
   }
 }
 
@@ -217,8 +243,8 @@ export default {
   height: 200px;
   width: 200px;
 }
-.calendly .calendly-overlay .calendly-popup {max-height: 780px!important;}
 
-
-
+.calendly .calendly-overlay .calendly-popup {
+  max-height: 780px !important;
+}
 </style>
