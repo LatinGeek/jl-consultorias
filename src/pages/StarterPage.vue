@@ -11,7 +11,7 @@
             <template slot="label">
               <div class="serviceLabel">
                 <i class="now-ui-icons objects_umbrella-13"></i>
-                Control y Gestión de Riesgos
+                Auditorías
               </div>
             </template>
             <p class="paragraph">
@@ -22,7 +22,7 @@
           </tab-pane>
           <tab-pane>
             <template class='serviceLabel' slot="label">
-              <i class="now-ui-icons shopping_cart-simple"></i> Auditorías Internas y Externas
+              <i class="now-ui-icons shopping_cart-simple"></i> Capacitación
 
 
             </template>
@@ -36,7 +36,7 @@
           </tab-pane>
           <tab-pane>
             <template class='serviceLabel' slot="label">
-              <i class="now-ui-icons shopping_shop"></i> Evaluación y Diagnóstico
+              <i class="now-ui-icons shopping_shop"></i> Asesorías
 
 
             </template>
@@ -119,7 +119,8 @@
                     <img src="img/julio3.jpg" alt="Thumbnail Image" class="rounded-circle img-fluid img-raised" />
                   </div>
                   <h4 class="title">Julio C. Lamela</h4>
-                  <p class=" text-primary">Microbiólogo</p>
+                  <p class=" text-primary">Microbiólogo MD</p>
+                  <p class=" text-primary">Consultor Asesor en microbiología industrial</p>
                   <p class="description">
                     Experto microbiólogo en equipos HACCP en la evaluación de peligros biológicos de diferentes matrices
                     alimentarias e insumos
@@ -130,8 +131,10 @@
                     Especialista en Microbiología - Posgrado UDELAR
                     Especialista UNIT en Seguridad Alimentaria
                   </p>
+                  <p class="description">jlamela005@gmail.com</p>
+                  <p class="description">+598 98 300 386</p>
                   <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
-                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-instagram"></i></a>
+                  <a href="https://wa.me/+59898300386" class="btn btn-primary btn-icon btn-round"><i class="fab fa-instagram"></i></a>
                   <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-facebook-square"></i></a>
                 </div>
               </div>
