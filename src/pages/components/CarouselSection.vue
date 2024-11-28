@@ -3,7 +3,7 @@
     <div id="carousel" class="container">
 
       <div class="row justify-content-center">
-        <div class="col-12">
+        <div style="width: 100%;">
           <el-carousel class="sliderContainer">
             <el-carousel-item class="slider">
               <img id="img1" class="d-block" alt="First slide" />
@@ -11,7 +11,12 @@
               </div>
             </el-carousel-item>
             <el-carousel-item class="slider">
-              <img id="img2" class="d-block"  alt="Second slide" />
+              <img id="img2" class="d-block" alt="Second slide" />
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </el-carousel-item>
+            <el-carousel-item class="slider">
+              <img id="img3" class="d-block" alt="Third slide" />
               <div class="carousel-caption d-none d-md-block">
               </div>
             </el-carousel-item>
@@ -54,6 +59,7 @@ el-carousel {
     height: calc(100vw / 2.8) !important;
     overflow: visible;
   }
+
   .sliderContainer .el-carousel__container {
     height: calc(100vw / 2.8) !important;
     overflow: hidden;
@@ -70,7 +76,10 @@ el-carousel {
 
   #img2 {
     content: url("/img/banners/Banner2_rectangle.png");
+  }
 
+  #img3 {
+    content: url("/img/banners/Banner3_rectangle.png");
   }
 
 }
@@ -84,10 +93,11 @@ el-carousel {
     overflow: hidden;
   }
 
-  .sliderContainer .el-carousel__container{
+  .sliderContainer .el-carousel__container {
     height: calc(96vw) !important;
     overflow: hidden;
   }
+
   #img1 {
     content: url("/img/banners/Banner1_square.png");
   }
@@ -97,6 +107,14 @@ el-carousel {
 
   }
 
+  #img3 {
+    content: url("/img/banners/Banner3_square.png");
+  }
+
+  .row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
 
 }
 </style>

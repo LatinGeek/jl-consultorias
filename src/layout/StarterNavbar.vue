@@ -5,22 +5,12 @@
       <router-link v-popover:popover1 class="navbar-brand" to="/presentation">
         <img src="img\logo-jl.png" style="width: 50px;">
       </router-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="200"
-        trigger="hover"
-      >
-        <div class="popover-body">
-          Designed by Invision. Coded by Creative Tim
-        </div>
-      </el-popover>
+
     </template>
     <template slot="navbar-menu">
-      <drop-down tag="li" title="Sample Dropdown">
+      <drop-down tag="li" title="Opciones">
         <nav-link class="dropdown-item">
-          <i class="now-ui-icons shopping_box"></i> Headers
+          <i class="now-ui-icons shopping_box"></i> <a  href="https://www.linkedin.com/in/julio-lamela-94743647/">LinkedIn</a>
         </nav-link>
       </drop-down>
     </template>

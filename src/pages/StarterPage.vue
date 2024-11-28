@@ -3,6 +3,17 @@
     <div style="height: 0em;"></div>
     <div class="section text-center">
       <CarouselSection class="carousel"></CarouselSection>
+      <div class="container" style="margin-top: 7em;">
+        <p class="text-primary">Más del 80 % de los productos elaborados que presentan desvíos en indicadores biológicos
+          y/o microorganismos
+          patógenos nocivos para el consumidor, provienen del ambiente en el que se producen <br> <b>asesoramos para
+            lograr una
+            producción en un ambiente bajo control e higiene.</b> <br>
+          Realizamos diagnóstico de contaminación cruzada, realizamos la búsqueda de Indicadores biológicos,
+          vectorización,
+          nichos contaminantes.
+        </p>
+      </div>
       <h1 class="title" id="title">Servicios</h1>
       <card class="col-10">
         <tabs centered type="neutral" tab-nav-wrapper-classes="card-header" tab-content-classes="card-body text-center"
@@ -15,9 +26,9 @@
               </div>
             </template>
             <p class="paragraph">
-              Los programas de control y gestión de riesgos son fundamentales para mantener la inocuidad alimentaria en tu
-              empresa. En <b>JL Consultorías</b>, creamos programas personalizados que se adaptan a tus necesidades y
-              metas específicas.
+              Nuestra evaluación y diagnóstico de inocuidad alimentaria es el primer paso hacia la garantía de la
+              seguridad de tus productos. Nuestro equipo de expertos llevará a cabo una revisión exhaustiva de tus
+              procesos y operaciones para identificar posibles riesgos y áreas de mejora.
             </p>
           </tab-pane>
           <tab-pane>
@@ -27,9 +38,15 @@
 
             </template>
             <p class="paragraph">
-              Mantenerse en cumplimiento con las normativas y regulaciones es crucial en la industria de la alimentación.
-              Nuestros servicios de auditoría interna y externa te ayudarán a verificar el cumplimiento de tus operaciones
-              con los estándares de seguridad alimentaria.
+              Cuando hablamos de Inocuidad Alimentaria, en general hablamos de alimentos libres de patógenos para el
+              consumidor, o en aquellos microrganismos que potencialmente puedan causar pérdida de la calidad, lograr su
+              concentración en el producto dentro de un margen de aceptabilidad reglamentario o normativo durante su vida
+              útil, basado en un profundo y real análisis de riesgo .
+              Entendemos que establecer una “Cultura de trabajo” es posible <b>si la primera línea de operarios en
+                producción
+                están capacitados, motivados e involucrados con su tarea</b>, logrando excelentes estándares de producción
+              responsable.
+
 
 
             </p>
@@ -41,9 +58,31 @@
 
             </template>
             <p class="paragraph">
-              Nuestra evaluación y diagnóstico de inocuidad alimentaria es el primer paso hacia la garantía de la
-              seguridad de tus productos. Nuestro equipo de expertos llevará a cabo una revisión exhaustiva de tus
-              procesos y operaciones para identificar posibles riesgos y áreas de mejora.
+              Los programas de Seguridad Alimentaria, control y gestión de peligros biológicos son fundamentales para
+              asegurar la inocuidad alimentaria en tu empresa.
+              En <b>JL Consultorías</b>, ofrecemos mediante trabajo en equipo , el diagnóstico , apoyo , capacitación y
+              planes que
+              se adapten a tus necesidades productivas y metas económicas.
+
+
+
+            </p>
+          </tab-pane>
+          <tab-pane>
+            <template class='serviceLabel' slot="label">
+              <i class="now-ui-icons education_paper"></i> Diagnóstico
+
+
+            </template>
+            <p class="paragraph">
+              Ofrecemos mediante apoyo analítico, un diagnóstico de situación real y planes de trabajo que permitan
+              erradicar la presencia de microorganismos “problema” en el ambiente de elaboración de alimentos.
+              <b>Capacitar de forma remota o presencial, al personal de Calidad y Seguridad alimentaria</b>, de los
+              atributos
+              moleculares, estructurales, metabólicos y de resistencia, que poseen los microorganismos por lo cual, a
+              pesar del cumplimiento de estándares de limpieza y sanitizado, fallamos en el control de los mismos.
+
+
 
 
             </p>
@@ -67,38 +106,19 @@
             <template v-slot:title><span class="faqTitle"> ¿Por qué es importante la inocuidad alimentaria para mi
                 negocio? </span></template>
           </CollapseItem>
+
+
           <CollapseItem>
             <div class="container">
 
-              <p class="paragraph">Las regulaciones varían según la ubicación de tu negocio y el tipo de alimentos que
-                produces o vendes. Nuestros asesores de inocuidad alimentaria pueden ayudarte a identificar y cumplir con
-                las regulaciones locales, nacionales e internacionales aplicables, como el HACCP, BRC, SQF, y las
-                normativas de la FDA en Estados Unidos, entre otras.</p>
-            </div>
-            <template v-slot:title><span class="faqTitle"> ¿Qué regulaciones de inocuidad alimentaria debo cumplir?
-              </span></template>
-          </CollapseItem>
-          <CollapseItem>
-            <div class="container">
-
-              <p class="paragraph">Prepararse para una auditoría de inocuidad alimentaria implica documentar
-                cuidadosamente tus procesos, capacitar a tu personal en buenas prácticas de manipulación de alimentos,
-                llevar registros precisos y asegurarse de que tus instalaciones cumplan con los estándares. Nuestros
-                asesores pueden ofrecer orientación personalizada y capacitación para garantizar que tu negocio esté listo
-                para la auditoría.</p>
-            </div>
-            <template v-slot:title><span class="faqTitle"> ¿Cómo puedo preparar mi negocio para una auditoría de
-                inocuidad alimentaria?
-              </span></template>
-          </CollapseItem>
-          <CollapseItem>
-            <div class="container">
-
-              <p class="paragraph">La inocuidad alimentaria se refiere a la seguridad de los alimentos, es decir, que no
-                causen daño a la salud de los consumidores debido a contaminantes o microorganismos peligrosos. La calidad
-                alimentaria se centra en los atributos organolépticos, como sabor, textura y apariencia. Aunque son
-                conceptos relacionados, la inocuidad es esencial, ya que un producto de alta calidad pero no seguro puede
-                poner en riesgo la salud de los consumidores y la reputación de tu negocio.</p>
+              <p class="paragraph">La inocuidad alimentaria se refiere a la seguridad de los alimentos, de forma tal que
+                <b>no causen daño a la salud de los consumidores debido a contaminantes, microorganismos o sus
+                  toxinas.</b>
+                La calidad alimentaria se centra en los atributos organolépticos, como sabor, textura y apariencia, entre
+                otros.
+                Aunque son conceptos relacionados, la inocuidad es esencial, ya que un producto de alta calidad pero no
+                seguro puede poner en riesgo la salud de los consumidores y la reputación de tu negocio.
+              </p>
             </div>
             <template v-slot:title><span class="faqTitle"> ¿Cuál es la diferencia entre inocuidad alimentaria y
                 calidad alimentaria?
@@ -107,6 +127,7 @@
         </Collapse>
 
       </card>
+
 
 
       <div class="section section-team text-center">
@@ -120,22 +141,29 @@
                   </div>
                   <h4 class="title">Julio C. Lamela</h4>
                   <p class=" text-primary">Microbiólogo MD</p>
-                  <p class=" text-primary">Consultor Asesor en microbiología industrial</p>
-                  <p class="description">
-                    Experto microbiólogo en equipos HACCP en la evaluación de peligros biológicos de diferentes matrices
-                    alimentarias e insumos
-
-                    Gestión de Riesgos . Bioseguridad.
-
-                    Profesión: Doctor en Medicina
-                    Especialista en Microbiología - Posgrado UDELAR
-                    Especialista UNIT en Seguridad Alimentaria
+                  <p class="description text-primary">
+                    Experto microbiólogo en la evaluación de peligros biológicos de diferentes matrices alimentarias e
+                    insumos en equipos HACCP.
+                    Amplia experiencia en procesos productivos por más de 35 años.
                   </p>
+                  <p class="description text-primary">
+                    <b>Doctor en Medicina</b> – Universidad de la República O. del Uruguay ( UDELAR ) <br>
+                    <b>Especialista en Microbiología</b> – Instituto de Higiene - Facultad de Medicina <br>
+                    <b>Posgrado</b> - Universidad de la República O. del Uruguay <br>
+                    <b>Especialista en Seguridad Alimentaria </b>- UNIT <br>
+                    <b>Responsable en Gestión de Riesgos </b> - LATU <br>
+                    <b>Consultor Asesor</b> - Microbiología industrial <br>
+
+                  </p>
+
                   <p class="description">jlamela005@gmail.com</p>
                   <p class="description">+598 98 300 386</p>
-                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-twitter"></i></a>
-                  <a href="https://wa.me/+59898300386" class="btn btn-primary btn-icon btn-round"><i class="fab fa-instagram"></i></a>
-                  <a href="#pablo" class="btn btn-primary btn-icon btn-round"><i class="fab fa-facebook-square"></i></a>
+                  <div clas="row" style="display: inline-flex;">
+                    <a href="https://wa.me/+59898300386" class="socialbtn btn btn-primary btn-icon btn-round"><i
+                        class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/julio-lamela-94743647/"
+                      class="socialbtn btn btn-primary btn-icon btn-round"><i class="fab fa-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
 
@@ -144,23 +172,51 @@
         </div>
       </div>
 
+
+
       <h1 class="title" id="title">Trabajemos juntos</h1>
       <div class="row inforow">
         <div class="col-sm-12 col-xl-6">
           <img src="/img/food-safety-logo.png" style="width: 100%; max-width: 40em; padding: 2em 10em 2em 10em;" />
         </div>
         <div style='margin: auto; padding: 5em;' class="col-sm-12 col-xl-6 description">
-          <p>
-            <b>Agenda una reunión de 30 minutos para conocer acerca de tu situación y poder brindarte una propuesta de valor
-            que garantice la satisfacción de tu negocio en términos de Seguridad Alimentaria</b>
+          <p class="text-primary">
+            <b>Agenda una reunión de 30 minutos para conocer acerca de tu situación y poder brindarte una propuesta de
+              valor
+              que garantice la satisfacción de tu negocio en términos de Seguridad Alimentaria</b>
           </p>
         </div>
       </div>
+      <h1 class="title" id="title">Participaciones</h1>
 
+      <Card>
+        <div style="display: flex; justify-content: space-evenly;" class="linkedinContainer">
+
+          <LinkedinCard
+            imageSrc="img\1609283167775.jpg"
+            title="BARCELONA 201, UAB" desc="Workshop de metodos rápidos y automatización en microbiologia alimentaria.
+          Ponente." />
+          <LinkedinCard imageSrc="https://indufarma.com.uy/wp-content/uploads/2020/10/Indufarma-SETIEMBRE.jpg"
+            title="Indufarma"
+            desc="Una visión de la contaminación biológica de los alimentos con el foco puesto en el ambiente. Gracias Indufarma por la invitación y el interés." />
+          <LinkedinCard
+            imageSrc="https://i.postimg.cc/pdNyYwgW/1559347218683.jpg"
+            title="Hotel Estancia San Pedro del Timote"
+            desc="Charla de Inocuidad y atributos microbianos favorecedores de la contaminación cruzada. Capacitación de todo el personal del servicio gastronómico y chef responsable." />
+ <LinkedinCard
+            imageSrc="img\176f2acf-7ea2-4e4b-b954-17c4e839760c.jpg"
+            title="Workshop MRAMA - Memorial DYCFung"
+            desc="'Rapid methods and automation in Food Microbiology' Universitat Autónoma de Barcelona" />
+
+        </div>
+
+
+      </Card>
 
       <h1 class="title" id="title">Agenda una reunión</h1>
-      <vue-calendly url="https://calendly.com/germanlamela98/30min" height=800></vue-calendly>
+      <vue-calendly url="https://calendly.com/germanlamela98/30min" height=900></vue-calendly>
 
+  
     </div>
 
 
@@ -172,12 +228,14 @@
 import CarouselSection from './components/CarouselSection.vue';
 import { Card, Tabs, TabPane } from '@/components';
 import { Collapse, CollapseItem } from '@/components'
+import LinkedinCard from '../components/LinkedinCard.vue'
 
 export default {
   name: 'starter',
   components: {
     CarouselSection, Card, Tabs, TabPane, Collapse,
-    CollapseItem
+    CollapseItem,
+    LinkedinCard
   },
 
 };
@@ -191,6 +249,33 @@ export default {
 h1 {
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
+
+.socialbtn {
+  height: 100px !important;
+  width: 100px !important;
+  font-size: 50px !important;
+  display: grid !important;
+  left: 0 !important;
+  top: 0 !important;
+  text-align: center !important;
+  transform: translate(0) !important;
+  justify-items: center !important;
+  align-content: center !important;
+}
+
+.socialbtn>i {
+  display: grid !important;
+  height: 100% !important;
+  justify-items: center !important;
+  align-content: center !important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: translate(0) !important;
+
+  position: relative !important;
+
 }
 
 #title {
@@ -208,16 +293,25 @@ h1 {
   }
 
   .faqTitle {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
 
+  }
+
+  .text-primary {
+    font-size: 1.25em;
+  }
+
+  .linkedinContainer {
+    flex-direction: column;
+    align-items: center;
   }
 
 }
 
 @media screen and (min-width: 701px) {
   .paragraph {
-    font-size: x-large;
+    font-size: large;
   }
 
   .faqTitle {
@@ -225,10 +319,18 @@ h1 {
 
   }
 
-  .inforow{
+  .inforow {
     padding: 10em;
   }
+
+  .linkedin-grid {
+    display: grid !important;
+    justify-content: center;
+    width: 100vw !important;
+  }
 }
+
+
 
 .paragraph {
   font-weight: 500;
